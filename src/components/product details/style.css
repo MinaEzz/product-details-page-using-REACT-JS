@@ -1,0 +1,66 @@
+.product-details h1{
+  font-size: 48px;
+  text-transform: capitalize;
+
+}
+.product-details p{
+  font-size: 18px;
+  color: #666;
+
+}
+.product-details h3{
+  font-size: 28px;
+  text-transform: capitalize;
+}
+.product-details ul{
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.product-details ul li{
+  border-radius: 8px;
+  margin-right: 8px;
+  cursor: pointer;
+  max-width: 80px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+ul li.active{
+  border: 2px solid #007d9c;
+}
+.product-details ul li:last-child{
+  margin-right: 0;
+}
+.product-details ul li img{
+  width: 100%;
+}
+.product-details button{
+  text-transform: capitalize;
+  font-weight: 700;
+  min-width: 120px;
+}
+.features-butttons{
+  margin-bottom: 18px;
+}
+.features-butttons button{
+  margin-right: 18px;
+}
+.features-butttons button:last-child{
+  margin-right: 0;
+}
+.time-btn{
+  background-color: gray !important;
+  color: #fff !important;
+
+}
+.heart-rate-btn{
+  background-color: gainsboro!important;
+  color: #000 !important;
+}
+.buy-btn{
+  color: #fff !important;
+  background-color: #007d9c !important;
+}
